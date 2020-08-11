@@ -1,0 +1,131 @@
+/*Медиа запросы для первой части макета */
+
+@media (max-width: 1919px), (min-width: 1921px){                                    /*Бабочки на верхнем тексте появляются только при ширине экрана в 1920px*/
+    .butterfly{
+        display: none;
+    }
+    .butterfly1{
+        display: none;
+    }
+}
+
+
+@media (min-width: 2000px){
+    .a_button{
+        font-size: 30px;
+    }
+    
+    .button1{                                                                        /*Кнопка и текст в ней увеличивается при ширине экрана больше 2000зч*/
+        width: 50%;
+    }
+    
+    .content{                                                                        /*Ширина контент-части увеличивается*/
+        width: 1500px;
+    }
+    
+    .menu{
+        width: 1300px;                                                                /*Увеличивается ширина меню с ссылками и сами сссылки*/
+    }
+    
+    .li_menu a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 600px){                                                         
+                                                                                     /*Ширина Header одаптируется под размер экрана*/
+    header{
+        width: 1400px;
+    }
+    
+    .button1{                                                                        /*Кнопка и текст в ней становятся больше*/
+        width: 25%;
+    }
+    
+    .a_button{
+        font-size: 20px;
+    }                                                                                /*Логотип исчезает*/
+    
+    .logo{
+        display: none;
+    }
+                                                                                    /*Размер ссылок увеличивается*/
+    .li_menu a{                                                                    
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 600px){                                                        /*Стили применяются при ширине экрана меньше 600px*/
+     header{
+        width: 1400px;
+    }
+    
+    .content{
+        width: 1000px;
+    }
+    
+    .button1{                                                                        /*Кнопка и текст в ней становятся больше*/
+        width: 50%;
+        margin: auto;
+    }
+    
+    .a_button{
+        font-size: 30px;
+    } 
+    
+    .img_girl{
+        display: none;                                                           /*Исчезают картинка-шар с девушкой*/
+    }
+    
+    .text_top{
+        text-align: center;                                                     /*Текст выравнивается по середине экрана*/
+    }
+    
+    .logo{
+        display: none;
+    }
+                                                                                /*Логотип и описание исчезают*/
+    .third_text{
+        display: none;
+    }
+    
+    .li_menu a{                                                                    
+        font-size: 20px;                                                        /*Ссылки выравниваются по середине и становятся больше*/
+        text-align: center;
+    }
+}
+
+
+
+/*Медиа-запросы для третей части макета */
+
+
+@media (max-width: 1200px){
+    .quote{
+        width: 1400px;
+    }
+}
+
+
+
+@media (max-width: 500px){
+    .body_quote{
+        display: none;
+    }
+    
+    .bold_text{
+        width: 80%;
+        padding-bottom: 100px;
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 2000px){
+    .body_quote{
+        display: none;
+    }
+    .bold_text{
+        padding-bottom: 100px;
+        font-size: 50px;
+    }
+}
